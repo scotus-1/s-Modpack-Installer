@@ -4,9 +4,9 @@ import json
 
 # Load or create local config file
 def configLoad():
-    if path.exists('../s_modpack_installer/smi_config.json'):
+    if path.exists('.\smi_config.json'):
         print(' [+] Found .\\smi_config.json, now loading settings')
-        with open('../s_modpack_installer/smi_config.json', 'r') as config_file:
+        with open('.\smi_config.json', 'r') as config_file:
             return json.load(config_file)
     else:
         print(' [-] Did not find .\\smi_config.json, running first time initialization \n')
@@ -20,7 +20,7 @@ def firstTimeInit():
 
     options = {"modFolder": modFolder}
     print("[*] Creating and writing config file")
-    with open("../s_modpack_installer/smi_config.json", "w") as config_file:
+    with open(".\smi_config.json", "w") as config_file:
         json.dump(options, config_file)
 
     return options
