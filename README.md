@@ -1,2 +1,113 @@
-# s-Modpack-Installer
-scotus's Modpack Installer
+<div id="top"></div>
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src=".github/images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">scotus's modpack installer</h3>
+
+  <p align="center">
+    project_description
+    <br/>
+    <br/>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+
+
+Placeholder
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+
+### Prerequisites
+
+
+### Installation
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Placeholder
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [] Feature 1
+- [] Feature 2
+- [] Feature 3
+    - [] Nested Feature
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the LGPLv3 License. See `LICENSE.txt` for more information.
+7-zip distributed under LGPLv3. READ-ME Template distributed under MIT License.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [7-zip by Igor Pallov](https://www.7-zip.org/)
+* [Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Additional Info -->
+## Additional Information
+
+[product-screenshot]: .github/images/banner.png

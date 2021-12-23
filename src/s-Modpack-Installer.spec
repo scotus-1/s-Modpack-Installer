@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['D:\\PycharmProjects\\s-Modpack-Installer'],
+             pathex=[],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -23,11 +23,11 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='s-Modpack-Installer',
+          name='scotus-s-modpack-installer',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True , icon='Enchanting_Table.ico')
+          console=True , icon='logo.ico')
