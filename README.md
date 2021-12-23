@@ -11,7 +11,7 @@
 <h3 align="center">scotus's modpack installer</h3>
 
   <p align="center">
-    project_description
+    <em>CurseForge is bloat.</em>
     <br/>
     <br/>
   </p>
@@ -80,10 +80,13 @@ Placeholder
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [ ] Extract and install from archive format
+- [ ] Install from version control system
+- [ ] Install from CurseForge/Twitch format
+- [ ] List Modpack Information
+- [ ] Manage Mods/Modpacks
+  - [ ] List Mods information from .json in mods
+  - [ ] Disable/Enable Mods
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -109,5 +112,7 @@ Distributed under the LGPLv3 License. See `LICENSE.txt` for more information.
 
 <!-- Additional Info -->
 ## Additional Information
+
+- Issues and Feature Requests should be in the [Issues](https://github.com/scotus-1/scotus-s-modpack-installer/issues)
 
 [product-screenshot]: .github/images/banner.png
