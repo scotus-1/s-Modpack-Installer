@@ -28,5 +28,5 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: s-Modpack-Installer.exe
-          path: src/dist/windows/s-Modpack-Installer.exe
+          name: scotus-s-modpack-installer.exe
+          path: src/dist/windows/scotus-s-modpack-installer.exe
