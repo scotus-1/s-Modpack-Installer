@@ -1,5 +1,6 @@
 from os import path
 import json
+from platform import system
 
 
 # Load or create local config file
@@ -26,9 +27,16 @@ def firstTimeInit():
     return options
 
 
-# Mod Folder Handle, add linux support for default?
+# Mod Folder Handle
 def findModFolder():
-    defaultModPath = path.expanduser("~") + '\\AppData\\Roaming\\.minecraft\\mods'
+    if system() == "Windows":
+        defaultModPath = path.expanduser("~") + '\\AppData\\Roaming\\.minecraft\\mods'
+    elif system() == "Linux":
+        defaultModPath = path.expanduser("~") + '/.minecraft/mods'
+    elif system() == "Darwin":
+        defaultModPath = path.expanduser("~") + '/Library/Application Support/minecraft/mods'
+    else:
+        defaultModPath = None
 
     modFolder = None
     if path.exists(defaultModPath):
