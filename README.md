@@ -44,11 +44,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]()
 
 
 
-Placeholder
+This is a simple CLI to install modpacks and switch or update them easily. This is not meant to replace MultiMC
+as personally there is a much different use for each. Curseforge is so bloated with Overwolf and so many other things.
+Having CurseForge manage mod updates is incredibly useful due to their locked API, but I decided to leave mod updates in 
+the hands of the modpack creator. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -107,6 +110,7 @@ Distributed under the LGPLv3 License. See `LICENSE.txt` for more information.
 
 * [7-zip by Igor Pallov](https://www.7-zip.org/)
 * [Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
+* [Louis George Café Font by Yining Chen](https://www.dafont.com/louis-george-caf.font)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
